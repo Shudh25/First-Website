@@ -1,0 +1,107 @@
+    body {
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        background: url('css/bg.jpg');
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+
+    .left {
+        /* border: 3px solid yellow; */
+        display: inline-block;
+        position: absolute;
+        left: 55px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 66px;
+        filter: invert(100%);
+        margin: 0px 14px;
+    }
+
+    .left div {
+        margin-top: 0px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .mid {
+        /* border: 3px solid rgb(209, 209, 204); */
+        display: block;
+        width: 47%;
+        margin: 20px auto;
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 24px;
+        top: 20px;
+        /* border: 3px solid rgb(135, 245, 10); */
+    }
+
+    .btn {
+        background-color: black;
+        margin: 0px 4px;
+        color: white;
+        padding: 0px 10px;
+        border: 2px solid grey;
+        border-radius: 11px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: #8d8689;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 19px;
+        padding: 0px 18px;
+        margin: 4px auto;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: rgb(183 169 170);
+        font-size: 20px;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 89px 114px;
+        padding: 20px 33px;
+        width: 32%;
+        border-radius: 25px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 62%;
+        height: 22px;
+        margin: 9px auto;
+        padding: 3px;
+        border: 2px solid white;
+        border-radius: 8px;
+        font-size: 18px;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 41%;
+        margin: 20px auto;
+    }
